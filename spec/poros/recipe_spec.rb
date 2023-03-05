@@ -1,0 +1,23 @@
+require 'rails_helper'
+
+RSpec.describe Recipe do 
+  it 'exists and has attributes' do 
+    recipe_data = {
+        "recipe": {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_7c2f6eed198963539389718cc779ef72",
+            "label": "Pisco Sour Recipe",
+            "image": "https://edamam-product-images.s3.amazonaws.com/web-img/947/947582162add8b048ccc91e4345929d0.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDoaCXVzLWVhc3QtMSJGMEQCICoLJerwRO0YTLbGIja9x0oMdKlsuSCaspidRAoJDrftAiA%2BsUIT%2Bh9WlF%2BxPuBqpeCbtHVpSGyQTOdfiLL9I3XyXCrCBQjj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDE4NzAxNzE1MDk4NiIMYYJlq6DlJIz0gjE%2BKpYF0emKHL2KHxXibi1pPIPNYhhy%2Brcn1OT51I8UG1r2m5doVk03uRBSJV9XypNcWVWYSUWmgoUF%2BNGKAssfZP3VoaD0KKjg6wKFiBVa32qWtdIYqSD0w3WqCvgw38ErQ%2BaxkTa2qz1mbrqpzuJrTx1qWRGbFKKZxTXMuQ4NFtPy4W9kkgRHJxKBHUj6hZEhJL%2B8cq3CV0iXpbBlkSaRPCFX3LXG8WVCDQNan7AvvB4M46aiYEh8UYHS592%2FhZPRXoTpUuf3MuuqMJYDzuD8njI0ZMIaa8AFPHVfqX%2BZCuWB%2BWYR%2FddAqDmzu45OH6pWbGgoVbCBOBMR2vER9cczPQHHDIbe7mVHDauvQbdqXTBhU8v03SA%2FC6%2BLtdwEQLHQWfyUnDT3KOHu5PCNJjxGaWxsOrsQM3HCcWM2Qdw%2F%2BCbUy2xH28relRbar5GQb3DXUzup9sArCmtwSLU6mwaDCuW5d2BtQaHHxQGx%2FaEwFXB6VYszqqVbvnAImIiZHPWtUGVv10WdU3t6LXsV312MObqu2fx1i0LLGLTGXO6xUCIuoboIfRvm8TXd1gKk%2FC431L3Z0sc6vYvMAjc1PdenlaYRgnyhVkcT2XUbMQh1DSVGgyRXDSogJSkzYEjuIzqWqssnuBPVKsYvsDL2GY48Ulw9MMbBTAWfv5BsA6Ri4dQLnPl33lMiTIl5Qe2khiqmkc4%2BH9rZMeDC6tXnc3L%2BSwJFZLLsux44fFWHPTBxJDPT%2F20TImsWfufOBusOg72au4kJ1YaEWjwQAqJSlJZsUplDfr9F1NXUR%2BWxG%2BhKFtnChG%2BdFcYTppgXmzuh5xGiLq1%2BfilR2t5338uLsLzW4qJEBdMl7usOqp2CFDCGv93S61ZkY%2FaJTvcwy%2BePoAY6sgHua7dx5Q7RhRqcENmgrgvHQcgLTDpu7IbfQBE02JPkvErq31eNC9uFO7qtfBZ7Zmy8%2FRcyw6LFNoNOewKJ5N49RKnmqHHd6578vXaT2Gg21WXJHfbDAoHQlctX81iHzSziMaOZ3AsZ2zv3UV4t324ByRix3Ixd3yMZg8gUTaXTUqaUuYuAp8trBfEeUwzmqq9S0edfv8v1DTnCvnt3tdbZb4Dr4fM6Y8ZNQtVQ3J6fEjhy&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230305T025134Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJZ7SWEGY%2F20230305%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8eaa13927877710efe1c78a9da0937e835bbb0c5d6a3b92be8d6d0a8cf11259b",
+            "url": "http://www.seriouseats.com/recipes/2011/02/time-for-a-drink-pisco-sour.html",
+            "shareAs": "http://www.edamam.com/recipe/pisco-sour-recipe-7c2f6eed198963539389718cc779ef72/peru"
+      }
+    }
+    country = "peru"
+    recipe = Recipe.new(country, recipe_data)
+
+    expect(recipe).to be_an_instance_of(Recipe)
+    expect(recipe.title).to eq("Pisco Sour Recipe")
+    expect(recipe.url).to eq("http://www.seriouseats.com/recipes/2011/02/time-for-a-drink-pisco-sour.html")
+    expect(recipe.image).to eq("https://edamam-product-images.s3.amazonaws.com/web-img/947/947582162add8b048ccc91e4345929d0.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDoaCXVzLWVhc3QtMSJGMEQCICoLJerwRO0YTLbGIja9x0oMdKlsuSCaspidRAoJDrftAiA%2BsUIT%2Bh9WlF%2BxPuBqpeCbtHVpSGyQTOdfiLL9I3XyXCrCBQjj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDE4NzAxNzE1MDk4NiIMYYJlq6DlJIz0gjE%2BKpYF0emKHL2KHxXibi1pPIPNYhhy%2Brcn1OT51I8UG1r2m5doVk03uRBSJV9XypNcWVWYSUWmgoUF%2BNGKAssfZP3VoaD0KKjg6wKFiBVa32qWtdIYqSD0w3WqCvgw38ErQ%2BaxkTa2qz1mbrqpzuJrTx1qWRGbFKKZxTXMuQ4NFtPy4W9kkgRHJxKBHUj6hZEhJL%2B8cq3CV0iXpbBlkSaRPCFX3LXG8WVCDQNan7AvvB4M46aiYEh8UYHS592%2FhZPRXoTpUuf3MuuqMJYDzuD8njI0ZMIaa8AFPHVfqX%2BZCuWB%2BWYR%2FddAqDmzu45OH6pWbGgoVbCBOBMR2vER9cczPQHHDIbe7mVHDauvQbdqXTBhU8v03SA%2FC6%2BLtdwEQLHQWfyUnDT3KOHu5PCNJjxGaWxsOrsQM3HCcWM2Qdw%2F%2BCbUy2xH28relRbar5GQb3DXUzup9sArCmtwSLU6mwaDCuW5d2BtQaHHxQGx%2FaEwFXB6VYszqqVbvnAImIiZHPWtUGVv10WdU3t6LXsV312MObqu2fx1i0LLGLTGXO6xUCIuoboIfRvm8TXd1gKk%2FC431L3Z0sc6vYvMAjc1PdenlaYRgnyhVkcT2XUbMQh1DSVGgyRXDSogJSkzYEjuIzqWqssnuBPVKsYvsDL2GY48Ulw9MMbBTAWfv5BsA6Ri4dQLnPl33lMiTIl5Qe2khiqmkc4%2BH9rZMeDC6tXnc3L%2BSwJFZLLsux44fFWHPTBxJDPT%2F20TImsWfufOBusOg72au4kJ1YaEWjwQAqJSlJZsUplDfr9F1NXUR%2BWxG%2BhKFtnChG%2BdFcYTppgXmzuh5xGiLq1%2BfilR2t5338uLsLzW4qJEBdMl7usOqp2CFDCGv93S61ZkY%2FaJTvcwy%2BePoAY6sgHua7dx5Q7RhRqcENmgrgvHQcgLTDpu7IbfQBE02JPkvErq31eNC9uFO7qtfBZ7Zmy8%2FRcyw6LFNoNOewKJ5N49RKnmqHHd6578vXaT2Gg21WXJHfbDAoHQlctX81iHzSziMaOZ3AsZ2zv3UV4t324ByRix3Ixd3yMZg8gUTaXTUqaUuYuAp8trBfEeUwzmqq9S0edfv8v1DTnCvnt3tdbZb4Dr4fM6Y8ZNQtVQ3J6fEjhy&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230305T025134Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFJZ7SWEGY%2F20230305%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8eaa13927877710efe1c78a9da0937e835bbb0c5d6a3b92be8d6d0a8cf11259b")
+    expect(recipe.country).to eq('peru')
+  end
+end

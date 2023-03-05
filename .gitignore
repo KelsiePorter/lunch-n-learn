@@ -17,6 +17,7 @@
 /storage/*
 !/storage/.keep
 
+
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
@@ -24,3 +25,6 @@
 
 # Ignore application configuration
 /config/application.yml
+coverage
+.DS_Store
+
