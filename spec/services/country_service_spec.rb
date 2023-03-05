@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'REST Countries API' do 
+RSpec.describe CountryService do 
   it 'returns a collection of all countries' do 
     stub_request(:get, "https://restcountries.com/v3.1/all")
     .to_return(status: 200, body: File.read('./spec/fixtures/all_countries.json'), headers: {})
@@ -10,5 +10,6 @@ RSpec.describe 'REST Countries API' do
     expect(response.length).to eq(250)
     expect(response[0]).to have_key(:name)
     expect(response[0][:name]).to have_key(:common)
+    expect(response[0][:name][:common]).to be_a String
   end
 end
