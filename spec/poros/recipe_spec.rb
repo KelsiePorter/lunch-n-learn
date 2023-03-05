@@ -12,7 +12,7 @@ RSpec.describe Recipe do
       }
     }
     country = "peru"
-    recipe = Recipe.new(recipe_data, country)
+    recipe = Recipe.new(country, recipe_data)
 
     expect(recipe).to be_an_instance_of(Recipe)
     expect(recipe.title).to eq("Pisco Sour Recipe")

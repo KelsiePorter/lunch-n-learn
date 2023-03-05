@@ -7,7 +7,7 @@ RSpec.describe RecipeService do
       .to_return(status: 200, body: File.read('./spec/fixtures/recipes_by_country.json'), headers: {})
       country = 'peru'
       response = RecipeService.get_recipes_by_country(country)
-y
+
       expect(response).to be_a Hash
       expect(response).to have_key(:hits)
       expect(response[:hits]).to be_an Array
