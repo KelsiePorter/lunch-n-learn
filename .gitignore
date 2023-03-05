@@ -16,7 +16,7 @@
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
-/coverage/
+
 
 .byebug_history
 
@@ -25,3 +25,6 @@
 
 # Ignore application configuration
 /config/application.yml
+coverage
+.env
+
