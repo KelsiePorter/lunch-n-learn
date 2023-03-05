@@ -1,28 +1,25 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/kelsieporter/turing/mod_3/projects/lunch-n-learn/spec/services/recipe_service_spec.rb": {
+      "/Users/kelsieporter/turing/mod_3/projects/lunch-n-learn/spec/facades/recipe_facade_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
           1,
-          1,
-          1,
+          null,
+          null,
           null,
           1,
           1,
           1,
           1,
+          null,
           1,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          20,
+          null,
           null,
           null,
           null
@@ -301,7 +298,7 @@
           null,
           null,
           1,
-          1,
+          2,
           null,
           null,
           null,
@@ -322,7 +319,177 @@
           null
         ]
       },
+      "/Users/kelsieporter/turing/mod_3/projects/lunch-n-learn/app/facade/recipe_facade.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          40,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/kelsieporter/turing/mod_3/projects/lunch-n-learn/spec/poros/recipe_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/kelsieporter/turing/mod_3/projects/lunch-n-learn/app/poros/recipe.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          41,
+          41,
+          41,
+          41,
+          null,
+          null
+        ]
+      },
+      "/Users/kelsieporter/turing/mod_3/projects/lunch-n-learn/spec/requests/api/v1/recipes/recipe_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          null,
+          20,
+          20,
+          20,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/kelsieporter/turing/mod_3/projects/lunch-n-learn/spec/services/recipe_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/kelsieporter/turing/mod_3/projects/lunch-n-learn/app/services/recipe_service.rb": {
+        "lines": [
+          1,
+          1,
+          4,
+          4,
+          null,
+          null,
+          1,
+          null,
+          1,
+          4,
+          null,
+          null,
+          1,
+          4,
+          null,
+          null
+        ]
+      },
+      "/Users/kelsieporter/turing/mod_3/projects/lunch-n-learn/app/controllers/api/v1/recipes_controller.rb": {
         "lines": [
           1,
           1,
@@ -330,19 +497,39 @@
           1,
           null,
           null,
-          1,
-          null,
-          1,
-          1,
           null,
           null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/kelsieporter/turing/mod_3/projects/lunch-n-learn/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/kelsieporter/turing/mod_3/projects/lunch-n-learn/app/serializers/recipe_serializer.rb": {
+        "lines": [
           1,
           1,
+          null,
+          21,
+          1,
+          null,
+          null,
+          null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1677980454
+    "timestamp": 1677995298
   }
 }
