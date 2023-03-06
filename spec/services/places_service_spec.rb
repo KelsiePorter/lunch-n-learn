@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe PlacesService do 
   it 'returns tourist sights within a 20000m radius of the specified coordinates' do 
-    stub_request(:get, "https://api.geoapify.com/v2/places?categories=tourism.sights&filter=circle:-77.05,-12.05,5000&limit=20&apiKey=#{ENV['places_api_key']}")
+    stub_request(:get, "https://api.geoapify.com/v2/places?categories=tourism.sights&filter=circle:-77.05,-12.05,1q000&limit=20&apiKey=#{ENV['places_api_key']}")
     .to_return(status: 200, body: File.read('./spec/fixtures/lima_tourist_sights.json'), headers: {})
     coords = [-77.05,-12.05]
     response = PlacesService.get_tourist_sights(coords)
