@@ -12,4 +12,9 @@ RSpec.describe CountryService do
     expect(response[0][:name]).to have_key(:common)
     expect(response[0][:name][:common]).to be_a String
   end
+
+  it 'returns longitude and latitude of the capital city' do 
+        stub_request(:get, "https://restcountries.com/v3.1/all")
+    .to_return(status: 200, body: File.read('./spec/fixtures/peru_data.json'), headers: {})
+  end
 end
