@@ -2,7 +2,7 @@ class YoutubeService
 
   def self.get_video(query)
     response = conn.get("/youtube/v3/search?q=#{query}")
-    parse_json(response)
+    parse_json(response)[:items][0]
   end
 
   private 
