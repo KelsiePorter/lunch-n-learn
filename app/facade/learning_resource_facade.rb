@@ -1,8 +1,14 @@
 class LearningResourceFacade
 
   def self.get_learning_resources(country)
-    video = YoutubeService.get_video(country)
-    images = UnsplashService.get_images(country)
-    #serializer wil take a video arg and a img arg
+    video_data = YoutubeService.get_video(country)
+    video = Video.new(video_data)
+
+    images_data = UnsplashService.get_images(country)
+    images = images_data[:results].map do |image_data|
+      Image.new(image_data)
+    end
+
+    LearningResource.new(country, video, images)
   end
 end
