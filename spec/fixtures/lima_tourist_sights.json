@@ -1,0 +1,1183 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Complejo Arqueológico Mateo Salado",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15084",
+              "district": "Urbanizacion Las Brisas",
+              "suburb": "Lima",
+              "street": "Mariano Cornejo Avenue",
+              "lon": -77.06261149209966,
+              "lat": -12.065462700000001,
+              "state_code": "LIM",
+              "formatted": "Complejo Arqueológico Mateo Salado, Mariano Cornejo Avenue, Lima, Lima Metropolitan Area 15084, Peru",
+              "address_line1": "Complejo Arqueológico Mateo Salado",
+              "address_line2": "Mariano Cornejo Avenue, Lima, Lima Metropolitan Area 15084, Peru",
+              "categories": [
+                  "tourism",
+                  "tourism.attraction",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site"
+              ],
+              "details": [
+                  "details",
+                  "details.contact",
+                  "details.facilities",
+                  "details.historic",
+                  "details.payment",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Complejo Arqueológico Mateo Salado",
+                      "email": "mateosalado@cultura.gob.pe",
+                      "phone": "+5113215624",
+                      "height": 2.5,
+                      "osm_id": 115981121,
+                      "barrier": "fence",
+                      "tourism": "attraction",
+                      "alt_name": "Huaca Mateo Salado",
+                      "historic": "archaeological_site",
+                      "osm_type": "w",
+                      "wikidata": "Q6005941",
+                      "addr:city": "Lima",
+                      "wikipedia": "es:Mateo Salado (complejo arqueológico)",
+                      "fence_type": "split_rail",
+                      "wheelchair": "no",
+                      "addr:street": "Avenida Mariano Cornejo",
+                      "description": "Es un complejo arqueológico que consta de 5 pirámides escalonadas truncas construído por la cultura Ychsma hacia el 1100 d.C. y posteriormente ocupada por los Incas en 1450. Se encuentra en medio de la ciudad de Lima y es el más grande de la ciudad.",
+                      "payment:cash": "yes",
+                      "opening_hours": "We-Su 10:00-16:00",
+                      "contact:facebook": "https://www.facebook.com/Complejo-Arqueol%C3%B3gico-Mateo-Salado-755293434588320/",
+                      "historic:civilization": "ychsma",
+                      "wheelchair:description": "No parece ser accesible. Ninguna huaca lo es."
+                  }
+              },
+              "place_id": "516539f56d054453c059c8406d6eb62128c0f00102f90141bbe90600000000920323436f6d706c656a6f2041727175656f6cc3b36769636f204d6174656f2053616c61646f"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.0628313917892,
+                  -12.06584496577888
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Centro Histórico de Lima",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15001",
+              "lon": -77.03005057485883,
+              "lat": -12.04383275,
+              "state_code": "LIM",
+              "formatted": "Historic Centre of Lima, Lima Metropolitan Area 15001, Peru",
+              "address_line1": "Historic Centre of Lima",
+              "address_line2": "Lima Metropolitan Area 15001, Peru",
+              "categories": [
+                  "heritage",
+                  "heritage.unesco",
+                  "natural",
+                  "natural.protected_area",
+                  "tourism",
+                  "tourism.sights"
+              ],
+              "details": [
+                  "details",
+                  "details.heritage",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Centro Histórico de Lima",
+                      "osm_id": -8543642,
+                      "name:ar": "وسط ليما التاريخي",
+                      "name:de": "Historisch centrum van Lima",
+                      "name:en": "Historic Centre of Lima",
+                      "name:es": "Centro Histórico de Lima",
+                      "name:fr": "Centre historique de Lima",
+                      "name:it": "Centro storico di lima",
+                      "name:ja": "リマ歴史地区",
+                      "name:nl": "Historisch centrum van Lima",
+                      "name:pt": "Centro Histórico de Lima",
+                      "name:ru": "Исторический центр Лимы",
+                      "name:zh": "利马的历史中心",
+                      "ref:whc": "500bis",
+                      "website": "http://whc.unesco.org/en/list/500bis",
+                      "boundary": "protected_area",
+                      "heritage": 1,
+                      "historic": "district",
+                      "osm_type": "r",
+                      "wikidata": "Q3320442",
+                      "wikipedia": "es:Centro histórico de Lima",
+                      "whc:criteria": "(iv)",
+                      "protect_class": 98,
+                      "protection_title": "World Heritage Site",
+                      "heritage:operator": "whc",
+                      "whc:inscription_date": 1988
+                  }
+              },
+              "place_id": "51d373dea8d24153c05916237f99b91728c0f00101f9019a5d82000000000092031943656e74726f2048697374c3b37269636f206465204c696d61"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.02848264430877,
+                  -12.046337887544308
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Hospital Real de San Andrés",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15001",
+              "district": "Chinatown",
+              "suburb": "Lima",
+              "quarter": "Barrios Altos",
+              "street": "Jirón Huallaga",
+              "housenumber": "846",
+              "lon": -77.02395760099003,
+              "lat": -12.0509228,
+              "state_code": "LIM",
+              "formatted": "Hospital Real de San Andrés, Jirón Huallaga 846, Lima, Lima Metropolitan Area 15001, Peru",
+              "address_line1": "Hospital Real de San Andrés",
+              "address_line2": "Jirón Huallaga 846, Lima, Lima Metropolitan Area 15001, Peru",
+              "categories": [
+                  "building",
+                  "building.historic",
+                  "tourism",
+                  "tourism.sights"
+              ],
+              "details": [
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Hospital Real de San Andrés",
+                      "osm_id": -6018442,
+                      "building": "yes",
+                      "historic": "building",
+                      "osm_type": "r",
+                      "wikidata": "Q97126991",
+                      "addr:city": "Cercado de Lima",
+                      "wikipedia": "es:Hospital Real de San Andrés",
+                      "addr:state": "Lima",
+                      "addr:street": "Jirón Huallaga",
+                      "addr:postcode": 15001,
+                      "addr:housenumber": 846
+                  }
+              },
+              "place_id": "51c11fd857884153c059c2431fd3161a28c0f00101f9018ad55b000000000092031c486f73706974616c205265616c2064652053616e20416e6472c3a973"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.02394672494758,
+                  -12.050955388609399
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Huaca Aliaga",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15102",
+              "district": "Pradera del Rímac",
+              "suburb": "Rímac",
+              "street": "Villa el Angel",
+              "lon": -77.05154107241188,
+              "lat": -12.014195149999999,
+              "state_code": "LIM",
+              "formatted": "Huaca Aliaga, Villa el Angel, Rímac, Lima Metropolitan Area 15102, Peru",
+              "address_line1": "Huaca Aliaga",
+              "address_line2": "Villa el Angel, Rímac, Lima Metropolitan Area 15102, Peru",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site"
+              ],
+              "details": [
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Huaca Aliaga",
+                      "osm_id": 67657093,
+                      "historic": "archaeological_site",
+                      "osm_type": "w",
+                      "wikidata": "Q104604942"
+                  }
+              },
+              "place_id": "51e5e8a2784c4353c0594e92a83f440728c0f00102f901855d08040000000092030c487561636120416c69616761"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.05154243382601,
+                  -12.014192570998741
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Casona de San Marcos",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15001",
+              "suburb": "Lima",
+              "street": "Azángaro Street",
+              "lon": -77.03223099408828,
+              "lat": -12.05459095,
+              "state_code": "LIM",
+              "formatted": "La Casona de San Marcos, Azángaro Street, Lima, Lima Metropolitan Area 15001, Peru",
+              "address_line1": "La Casona de San Marcos",
+              "address_line2": "Azángaro Street, Lima, Lima Metropolitan Area 15001, Peru",
+              "categories": [
+                  "tourism",
+                  "tourism.sights"
+              ],
+              "details": [
+                  "details",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Casona de San Marcos",
+                      "osm_id": 75223320,
+                      "name:en": "La Casona de San Marcos",
+                      "alt_name": "Centro Cultural de San Marcos",
+                      "historic": "building",
+                      "osm_type": "w",
+                      "wikidata": "Q5761195",
+                      "wikipedia": "es:Casona de la Universidad Nacional Mayor de San Marcos",
+                      "inscription": "http://whc.unesco.org/es/list/500"
+                  }
+              },
+              "place_id": "518727da10104253c0594f880765f01b28c0f00102f90118d17b04000000009203144361736f6e612064652053616e204d6172636f73"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.03223058036939,
+                  -12.054568440598954
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Huaca San Marcos",
+              "old_name": "Huaca Aramburú",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "06011",
+              "suburb": "Lima",
+              "street": "Republic of Venezuela Avenue",
+              "lon": -77.08683578501407,
+              "lat": -12.06001135,
+              "state_code": "LIM",
+              "formatted": "Huaca San Marcos, Republic of Venezuela Avenue, Lima, Lima Metropolitan Area 06011, Peru",
+              "address_line1": "Huaca San Marcos",
+              "address_line2": "Republic of Venezuela Avenue, Lima, Lima Metropolitan Area 06011, Peru",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site"
+              ],
+              "details": [
+                  "details",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Huaca San Marcos",
+                      "osm_id": 131940605,
+                      "surface": "sand",
+                      "historic": "archaeological_site",
+                      "old_name": "Huaca Aramburú",
+                      "osm_type": "w",
+                      "wikidata": "Q5903823",
+                      "wikipedia": "es:Huaca de la Universidad Nacional Mayor de San Marcos"
+                  }
+              },
+              "place_id": "51f72b3df38b4553c059b124bd05ca1e28c0f00102f901fd40dd070000000092031048756163612053616e204d6172636f73"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.08666687940409,
+                  -12.060135058726106
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Huaca Palomino",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15084",
+              "district": "Urbanizacion Las Brisas",
+              "suburb": "Lima",
+              "street": "Calle 3",
+              "lon": -77.07015348100128,
+              "lat": -12.0587305,
+              "state_code": "LIM",
+              "formatted": "Huaca Palomino, Calle 3, Lima, Lima Metropolitan Area 15084, Peru",
+              "address_line1": "Huaca Palomino",
+              "address_line2": "Calle 3, Lima, Lima Metropolitan Area 15084, Peru",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site"
+              ],
+              "details": [
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Huaca Palomino",
+                      "osm_id": 240064745,
+                      "surface": "stone",
+                      "historic": "archaeological_site",
+                      "osm_type": "w",
+                      "wikidata": "Q115916580"
+                  }
+              },
+              "place_id": "5103b8107e7d4453c059131478e2141e28c0f00102f901e9184f0e0000000092030e48756163612050616c6f6d696e6f"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.07015945084281,
+                  -12.058753087194452
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Huaca Florida",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15096",
+              "suburb": "Rímac",
+              "street": "Calle 11",
+              "lon": -77.03542302271376,
+              "lat": -12.02194665,
+              "state_code": "LIM",
+              "formatted": "Huaca Florida, Calle 11, Rímac, Lima Metropolitan Area 15096, Peru",
+              "address_line1": "Huaca Florida",
+              "address_line2": "Calle 11, Rímac, Lima Metropolitan Area 15096, Peru",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site"
+              ],
+              "details": [
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Huaca Florida",
+                      "osm_id": 409589314,
+                      "historic": "archaeological_site",
+                      "osm_type": "w",
+                      "wikidata": "Q5400463"
+                  }
+              },
+              "place_id": "5141d893e7414253c059c03b50ce490b28c0f00102f90142d669180000000092030d487561636120466c6f72696461"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.03527249753917,
+                  -12.02204746941959
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Huaca Huantille",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15086",
+              "suburb": "San Miguel",
+              "street": "José Salas",
+              "lon": -77.07222432221096,
+              "lat": -12.08506035,
+              "state_code": "LIM",
+              "formatted": "Huaca Huantille, José Salas, San Miguel, Lima Metropolitan Area 15086, Peru",
+              "address_line1": "Huaca Huantille",
+              "address_line2": "José Salas, San Miguel, Lima Metropolitan Area 15086, Peru",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.ruines"
+              ],
+              "details": [
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "area": "yes",
+                      "name": "Huaca Huantille",
+                      "osm_id": 436429904,
+                      "barrier": "fence",
+                      "historic": "ruins",
+                      "osm_type": "w",
+                      "wikidata": "Q5903814",
+                      "addr:city": "Magdalena del Mar",
+                      "addr:full": ":Jr. Mariscal Castilla cdra. 12 cruce con Calle Huamanga, Magdalena",
+                      "wikipedia": "es:Huaca Huantille"
+                  }
+              },
+              "place_id": "51da04324a9f4453c0592909de71922b28c0f00102f9015064031a0000000092030f4875616361204875616e74696c6c65"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.07222227940238,
+                  -12.08510166011236
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Torre del Reloj Alemana",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15001",
+              "suburb": "Lima",
+              "street": "Avenida Nicolás de Pierola",
+              "lon": -77.03142214048222,
+              "lat": -12.0540691,
+              "state_code": "LIM",
+              "formatted": "German Tower, Avenida Nicolás de Pierola, Lima, Lima Metropolitan Area 15001, Peru",
+              "address_line1": "German Tower",
+              "address_line2": "Avenida Nicolás de Pierola, Lima, Lima Metropolitan Area 15001, Peru",
+              "categories": [
+                  "building",
+                  "building.historic",
+                  "man_made",
+                  "man_made.tower",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.memorial",
+                  "tourism.sights.memorial.monument",
+                  "tourism.sights.tower"
+              ],
+              "details": [
+                  "details",
+                  "details.building",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "lit": "yes",
+                      "name": "Torre del Reloj Alemana",
+                      "height": 30,
+                      "osm_id": 436938479,
+                      "name:de": "Deutscher Turm",
+                      "name:en": "German Tower",
+                      "name:fr": "Tour allemande",
+                      "name:it": "Torre tedesca",
+                      "name:pt": "Torre alemã",
+                      "building": "yes",
+                      "historic": "monument",
+                      "man_made": "tower",
+                      "osm_type": "w",
+                      "wikidata": "Q17631827",
+                      "architect": "Friedrich Jordan Barkholtz",
+                      "wikipedia": "es:Torre Alemana",
+                      "start_date": "1923-07-10",
+                      "tower:type": "monument",
+                      "inscription": "La Colonia Alemana a la República del Perú en el primer Centenario de su Independencia. 1821 - 1921",
+                      "building:levels": 1,
+                      "tower:construction": "brick"
+                  }
+              },
+              "place_id": "518f26fad1024253c05961d211f2ae1b28c0f00102f901ef260b1a00000000920317546f7272652064656c2052656c6f6a20416c656d616e61"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.03142213276645,
+                  -12.054069103885185
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Complejo Arqueológico Mateo Salado",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15081",
+              "suburb": "Breña",
+              "quarter": "Azcona",
+              "street": "Tingo María Avenue",
+              "lon": -77.0603436666734,
+              "lat": -12.064011050000001,
+              "state_code": "LIM",
+              "formatted": "Complejo Arqueológico Mateo Salado, Tingo María Avenue, Breña, Lima Metropolitan Area 15081, Peru",
+              "address_line1": "Complejo Arqueológico Mateo Salado",
+              "address_line2": "Tingo María Avenue, Breña, Lima Metropolitan Area 15081, Peru",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site"
+              ],
+              "details": [
+                  "details.facilities",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Complejo Arqueológico Mateo Salado",
+                      "height": 2.5,
+                      "osm_id": 528020499,
+                      "barrier": "fence",
+                      "historic": "archaeological_site",
+                      "osm_type": "w",
+                      "wikidata": "Q6005941",
+                      "wikipedia": "es:Mateo Salado (complejo arqueológico)",
+                      "fence_type": "split_rail",
+                      "wheelchair": "no",
+                      "wheelchair:description": "No parece ser accesible. Ninguna huaca lo es."
+                  }
+              },
+              "place_id": "516e24eed6dc4353c059187a1f3bca2028c0f00102f90113f4781f00000000920323436f6d706c656a6f2041727175656f6cc3b36769636f204d6174656f2053616c61646f"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.06035397773823,
+                  -12.06404289969673
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Piedra basal andina",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15001",
+              "suburb": "Lima",
+              "street": "Taulichusco Oval",
+              "lon": -77.03162799040697,
+              "lat": -12.04531885,
+              "state_code": "LIM",
+              "formatted": "Piedra basal andina, Taulichusco Oval, Lima, Lima Metropolitan Area 15001, Peru",
+              "address_line1": "Piedra basal andina",
+              "address_line2": "Taulichusco Oval, Lima, Lima Metropolitan Area 15001, Peru",
+              "categories": [
+                  "tourism",
+                  "tourism.attraction",
+                  "tourism.sights",
+                  "tourism.sights.memorial"
+              ],
+              "details": [
+                  "details",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Piedra basal andina",
+                      "osm_id": 881677461,
+                      "tourism": "attraction",
+                      "alt_name": "Wanka en Granodiorita",
+                      "historic": "memorial",
+                      "memorial": "stone",
+                      "osm_type": "w",
+                      "wikimedia_commons": "File:Piedra basal andina.JPG"
+                  }
+              },
+              "place_id": "5113064531064253c059afbc9004341728c0f00102f90195548d340000000092031350696564726120626173616c20616e64696e61"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.03162795773123,
+                  -12.045318739574524
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Francisco Pizarro",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15001",
+              "suburb": "Lima",
+              "street": "Jirón Amazonas",
+              "lon": -77.0272116,
+              "lat": -12.0443618,
+              "state_code": "LIM",
+              "formatted": "Francisco Pizarro, Jirón Amazonas, Lima, Lima Metropolitan Area 15001, Peru",
+              "address_line1": "Francisco Pizarro",
+              "address_line2": "Jirón Amazonas, Lima, Lima Metropolitan Area 15001, Peru",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.memorial",
+                  "wheelchair",
+                  "wheelchair.yes"
+              ],
+              "details": [
+                  "details.facilities",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Francisco Pizarro",
+                      "osm_id": 2707208886,
+                      "historic": "memorial",
+                      "osm_type": "n",
+                      "wikidata": "Q75161514",
+                      "wheelchair": "yes",
+                      "subject:wikidata": "Q44741",
+                      "subject:wikipedia": "es:Francisco Pizarro",
+                      "toilets:wheelchair": "no"
+                  }
+              },
+              "place_id": "519904b9d5bd4153c059c7620197b61628c0f00103f901b6ba5ca1000000009203114672616e636973636f2050697a6172726f"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.0272116,
+                  -12.044361800116702
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Memorial El ojo que llora",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15083",
+              "suburb": "Jesús María",
+              "street": "Salaverry Avenue",
+              "lon": -77.0398467,
+              "lat": -12.0673304,
+              "state_code": "LIM",
+              "formatted": "Memorial El ojo que llora, Salaverry Avenue, Jesús María, Lima Metropolitan Area 15083, Peru",
+              "address_line1": "Memorial El ojo que llora",
+              "address_line2": "Salaverry Avenue, Jesús María, Lima Metropolitan Area 15083, Peru",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.memorial"
+              ],
+              "details": [
+                  "details.artwork",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Memorial El ojo que llora",
+                      "osm_id": 4164691834,
+                      "historic": "memorial",
+                      "memorial": "stone",
+                      "osm_type": "n",
+                      "wikidata": "Q7732911",
+                      "wikipedia": "es:El ojo que llora",
+                      "artist_name": "Lika Mutal"
+                  }
+              },
+              "place_id": "51a0562cd98c4253c0595a135521792228c0f00103f9017a273cf8000000009203194d656d6f7269616c20456c206f6a6f20717565206c6c6f7261"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.0398467,
+                  -12.067330400119022
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Cristóbal Colón",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15083",
+              "suburb": "Santa Beatriz",
+              "street": "9 de Diciembre Avenue",
+              "lon": -77.0385554,
+              "lat": -12.059959,
+              "state_code": "LIM",
+              "formatted": "Cristóbal Colón, 9 de Diciembre Avenue, Santa Beatriz, Lima Metropolitan Area 15083, Peru",
+              "address_line1": "Cristóbal Colón",
+              "address_line2": "9 de Diciembre Avenue, Santa Beatriz, Lima Metropolitan Area 15083, Peru",
+              "categories": [
+                  "access",
+                  "access.yes",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.memorial"
+              ],
+              "details": [
+                  "details",
+                  "details.artwork",
+                  "details.historic"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Cristóbal Colón",
+                      "access": "yes",
+                      "osm_id": 4334530067,
+                      "historic": "memorial",
+                      "material": "marble",
+                      "memorial": "statue",
+                      "osm_type": "n",
+                      "start_date": "1860-08-03",
+                      "artist_name": "D. Salvatore Ravelli",
+                      "inscription": "A CRISTOBAL COLON LA NACION PERUANA AÑO DE MDCCCL",
+                      "contact:website": "http://www.limalaunica.pe/2010/08/el-monumento-cristobal-colon.html",
+                      "subject:wikidata": "Q7322",
+                      "subject:wikipedia": "es:Cristóbal Colón"
+                  }
+              },
+              "place_id": "51648511b1774253c059bf3731f2b21e28c0f00103f90113ae5b02010000009203114372697374c3b362616c20436f6cc3b36e"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.0385554,
+                  -12.059959000118281
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Hipólito Unanue",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15001",
+              "suburb": "Lima",
+              "street": "Avenida Nicolás de Pierola",
+              "lon": -77.0318589,
+              "lat": -12.0537643,
+              "state_code": "LIM",
+              "formatted": "Hipólito Unanue, Avenida Nicolás de Pierola, Lima, Lima Metropolitan Area 15001, Peru",
+              "address_line1": "Hipólito Unanue",
+              "address_line2": "Avenida Nicolás de Pierola, Lima, Lima Metropolitan Area 15001, Peru",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.memorial"
+              ],
+              "details": [
+                  "details.artwork",
+                  "details.facilities",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Hipólito Unanue",
+                      "osm_id": 4347851801,
+                      "historic": "memorial",
+                      "material": "marble",
+                      "memorial": "statue",
+                      "osm_type": "n",
+                      "wikidata": "Q91659212",
+                      "wikipedia": "es:Monumento a Hipólito Unanue",
+                      "start_date": "1931-07-29",
+                      "wheelchair": "no",
+                      "artist_name": "Manuel Piqueras Cotolí",
+                      "toilets:wheelchair": "no"
+                  }
+              },
+              "place_id": "518965e9f9094253c05936658dfe861b28c0f00103f90119f4260301000000920310486970c3b36c69746f20556e616e7565"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.03185889999999,
+                  -12.05376430011766
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Castillo Rospigliosi",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15046",
+              "suburb": "Lince",
+              "street": "Manuel Segura Street",
+              "housenumber": "400",
+              "lon": -77.0330189,
+              "lat": -12.0785218,
+              "state_code": "LIM",
+              "formatted": "Castillo Rospigliosi, Manuel Segura Street 400, Lince, Lima Metropolitan Area 15046, Peru",
+              "address_line1": "Castillo Rospigliosi",
+              "address_line2": "Manuel Segura Street 400, Lince, Lima Metropolitan Area 15046, Peru",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.castle"
+              ],
+              "details": [
+                  "details",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Castillo Rospigliosi",
+                      "osm_id": 4422319891,
+                      "name:es": "Castillo Rospigliosi",
+                      "historic": "castle",
+                      "osm_type": "n",
+                      "wikidata": "Q5756984",
+                      "addr:city": "Santa Beatriz",
+                      "wikipedia": "es:Castillo Rospigliosi",
+                      "start_date": 1929,
+                      "addr:street": "Calle Manuel Segura",
+                      "addr:postcode": 15046,
+                      "addr:housenumber": 400
+                  }
+              },
+              "place_id": "5198e94dfb1c4253c0590a146702342828c0f00103f901133f97070100000092031443617374696c6c6f20526f737069676c696f7369"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.0330189,
+                  -12.07852180012016
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "La Libertad",
+              "old_name": "Plaza de la Recoleta",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15001",
+              "suburb": "Lima",
+              "street": "Pasaje Villarán",
+              "lon": -77.0378249,
+              "lat": -12.053222,
+              "state_code": "LIM",
+              "formatted": "Freedom, Pasaje Villarán, Lima, Lima Metropolitan Area 15001, Peru",
+              "address_line1": "Freedom",
+              "address_line2": "Pasaje Villarán, Lima, Lima Metropolitan Area 15001, Peru",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.memorial",
+                  "wheelchair",
+                  "wheelchair.limited"
+              ],
+              "details": [
+                  "details",
+                  "details.artwork",
+                  "details.facilities",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "La Libertad",
+                      "osm_id": 4439948190,
+                      "name:en": "Freedom",
+                      "name:fr": "La liberté",
+                      "historic": "memorial",
+                      "material": "bronze;granite",
+                      "memorial": "statue",
+                      "old_name": "Plaza de la Recoleta",
+                      "osm_type": "n",
+                      "wikidata": "Q75053182",
+                      "wikipedia": "es:Estatua de La Libertad (Lima)",
+                      "start_date": "1926-01-17",
+                      "wheelchair": "limited",
+                      "artist_name": "René Bertrand-Boutée",
+                      "inscription": "Homenaje de la Colonia Francesa a la República del Perú en el primer Centenario de su Independencia.",
+                      "toilets:wheelchair": "no",
+                      "wheelchair:description": "Un escalon que levanta el monumento"
+                  }
+              },
+              "place_id": "515d1e21b96b4253c05997ddfbe93f1b28c0f00103f9019e3ba4080100000092030b4c61204c69626572746164"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.03782489999999,
+                  -12.053222000117598
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Combate del Dos de Mayo",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15082",
+              "district": "Monserrate",
+              "suburb": "Lima",
+              "street": "Plaza 2 de Mayo",
+              "lon": -77.0427655,
+              "lat": -12.0463851,
+              "state_code": "LIM",
+              "formatted": "Combate del Dos de Mayo, Plaza 2 de Mayo, Lima, Lima Metropolitan Area 15082, Peru",
+              "address_line1": "Combate del Dos de Mayo",
+              "address_line2": "Plaza 2 de Mayo, Lima, Lima Metropolitan Area 15082, Peru",
+              "categories": [
+                  "access",
+                  "access.yes",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.memorial",
+                  "tourism.sights.memorial.monument"
+              ],
+              "details": [
+                  "details.artwork",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Combate del Dos de Mayo",
+                      "access": "yes",
+                      "osm_id": 6338630732,
+                      "historic": "monument",
+                      "osm_type": "n",
+                      "wikidata": "Q95385692",
+                      "architect": "Edmond Guillaume",
+                      "wikipedia": "es:Monumento conmemorativo del combate del Dos de Mayo",
+                      "start_date": "1874-07-29",
+                      "artist_name": "Louis-Léon Cugnot"
+                  }
+              },
+              "place_id": "516af981abbc4253c059310cb0c9bf1728c0f00103f9014cd4cf7901000000920317436f6d626174652064656c20446f73206465204d61796f"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.0427655,
+                  -12.04638510011691
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Sebastián Lorente",
+              "country": "Peru",
+              "country_code": "pe",
+              "region": "Province of Lima",
+              "state": "Lima",
+              "city": "Lima Metropolitan Area",
+              "postcode": "15001",
+              "suburb": "Lima",
+              "street": "Avenida Nicolás de Pierola",
+              "lon": -77.0316466,
+              "lat": -12.0539176,
+              "state_code": "LIM",
+              "formatted": "Sebastián Lorente, Avenida Nicolás de Pierola, Lima, Lima Metropolitan Area 15001, Peru",
+              "address_line1": "Sebastián Lorente",
+              "address_line2": "Avenida Nicolás de Pierola, Lima, Lima Metropolitan Area 15001, Peru",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.memorial"
+              ],
+              "details": [
+                  "details.artwork",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Sebastián Lorente",
+                      "osm_id": 7184601296,
+                      "historic": "memorial",
+                      "material": "bronze;granite",
+                      "memorial": "statue",
+                      "osm_type": "n",
+                      "wikidata": "Q98071462",
+                      "wikipedia": "es:Monumento a Sebastián Lorente",
+                      "start_date": "1924-09-15",
+                      "artist_name": "José Luis F. Agurto",
+                      "inscription": "Homenaje de La Nación al Maestro de la Juventud Peruana Sebastián Lorente. 1813 - 1884"
+                  }
+              },
+              "place_id": "51e401767f064253c059515e72169b1b28c0f00103f901d0503cac0100000092031253656261737469c3a16e204c6f72656e7465"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -77.03164659999999,
+                  -12.053917600117673
+              ]
+          }
+      }
+  ]
+}
