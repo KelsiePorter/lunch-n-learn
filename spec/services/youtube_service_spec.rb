@@ -20,4 +20,16 @@ RSpec.describe YoutubeService do
     expect(response[:items][0][:snippet]).to have_key(:title)
     expect(response[:items][0][:snippet][:title]).to be_a String
   end
+
+  it 'returns an empty array if no videos are found' do 
+    stub_request(:get, "https://www.googleapis.com/youtube/v3/search?channelId=UCluQ5yInbeAkkeCndNnUhpw&key=#{ENV['youtube_api_key']}&maxResults=1&part=snippet&q=gdfgxfh")
+    .to_return(status: 200, body: File.read('./spec/fixtures/no_matching_video_resource.json'), headers: {})
+  country = 'gdfgxfh'
+  response = YoutubeService.get_video(country)
+
+  expect(response).to be_a Hash
+  expect(response).to have_key(:items)
+  expect(response[:items]).to eq([])
+  expect(response[:items].count).to eq(0)
+  end
 end
