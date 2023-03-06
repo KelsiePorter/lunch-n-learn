@@ -13,7 +13,7 @@ RSpec.describe TouristSightsFacade do
     expect(tourist_sights).to be_an Array
 
     tourist_sights.each do |tourist_sight|
-      expect(tourist_sight).to be_an_instance_of(Sight)
+      expect(tourist_sight).to be_an_instance_of(TouristSight)
     end
   end
 end
