@@ -1,7 +1,7 @@
 class PlacesService
 
   def self.get_tourist_sights(capital_city_coords)
-    response = conn.get("/v2/places?categories=tourism.sights&filter=circle:#{capital_city_coords[0]},#{capital_city_coords[1]},5000&limit=20&apiKey=#{ENV['places_api_key']}")
+    response = conn.get("/v2/places?categories=tourism.sights&filter=circle:#{capital_city_coords[0]},#{capital_city_coords[1]},1000&limit=20&apiKey=#{ENV['places_api_key']}")
     parse_json(response)
   end
 
