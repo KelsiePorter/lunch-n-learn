@@ -5,7 +5,7 @@ class LearningResource
 
   def initialize(country, video, images)
     @country = country
-    @video = 
-    @images = 
+    @video = video
+    @images = images
   end
 end

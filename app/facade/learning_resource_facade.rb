@@ -8,7 +8,7 @@ class LearningResourceFacade
     images = images_data[:results].map do |image_data|
       Image.new(image_data)
     end
-
+    
     LearningResource.new(country, video, images)
   end
 end
