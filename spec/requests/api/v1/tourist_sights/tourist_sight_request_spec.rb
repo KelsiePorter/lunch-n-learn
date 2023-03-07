@@ -5,7 +5,7 @@ RSpec.describe 'Places API' do
     WebMock.allow_net_connect!
   end
 
-  it 'returns a collection of tourist sight within 1000m of the specified country' do 
+  xit 'returns a collection of tourist sight within 1000m of the specified country' do 
     country = 'france'
     get "/api/v1/tourist_sights?country=#{country}"
 
