@@ -28,6 +28,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'figaro'
 gem 'jsonapi-serializer'
 gem 'faraday'
+gem 'securerandom'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
