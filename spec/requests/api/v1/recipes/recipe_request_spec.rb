@@ -1,13 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe 'Edamam API' do 
-  before :each do 
-    WebMock.allow_net_connect!
-    # stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{ENV['edamam_app_id']}&app_key=#{ENV['edamam_app_key']}&q=peru&type=public")
-    # .to_return(status: 200, body: File.read('./spec/fixtures/recipes_by_country.json'), headers: {})
-  end
-
   it 'returns a collection of recipes that correlate with the country param' do 
+    stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{ENV['edamam_app_id']}&app_key=#{ENV['edamam_app_key']}&q=peru&type=public")
+      .to_return(status: 200, body: File.read('./spec/fixtures/recipes_by_country.json'), headers: {})
     country = 'peru'
     get "/api/v1/recipes?country=#{country}"
 
@@ -42,8 +38,12 @@ RSpec.describe 'Edamam API' do
   end
 
   it 'returns a collection of recipes that correlate with a randomly chosen country' do 
-    # stub_request(:get, "https://restcountries.com/v3.1/all")
-    # .to_return(status: 200, body: File.read('./spec/fixtures/all_countries.json'), headers: {})
+    stub_request(:get, "https://restcountries.com/v3.1/all")
+      .to_return(status: 200, body: File.read('./spec/fixtures/all_countries.json'), headers: {})
+    stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{ENV['edamam_app_id']}&app_key=#{ENV['edamam_app_key']}&q=gambia&type=public")
+      .to_return(status: 200, body: File.read('./spec/fixtures/recipes_by_country.json'), headers: {})
+    stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{ENV['edamam_app_id']}&app_key=#{ENV['edamam_app_key']}&q=capeverde&type=public")
+      .to_return(status: 200, body: File.read('./spec/fixtures/recipes_by_country.json'), headers: {})
     get '/api/v1/recipes'
 
     expect(response).to be_successful
@@ -78,6 +78,8 @@ RSpec.describe 'Edamam API' do
   end
 
   it 'returns an empty array if no recipe results found' do 
+    stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{ENV['edamam_app_id']}&app_key=#{ENV['edamam_app_key']}&q=klsjf&type=public")
+      .to_return(status: 200, body: File.read('./spec/fixtures/no_matching_recipes.json'), headers: {})
     get "/api/v1/recipes?country=klsjf"
 
     expect(response).to be_successful

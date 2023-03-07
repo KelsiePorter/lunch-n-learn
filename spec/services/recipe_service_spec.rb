@@ -4,7 +4,7 @@ RSpec.describe RecipeService do
   describe '.get_recipes' do 
     it 'returns a response with recipes for a specified country' do 
       stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{ENV['edamam_app_id']}&app_key=#{ENV['edamam_app_key']}&q=peru&type=public")
-      .to_return(status: 200, body: File.read('./spec/fixtures/recipes_by_country.json'), headers: {})
+        .to_return(status: 200, body: File.read('./spec/fixtures/recipes_by_country.json'), headers: {})
       country = 'peru'
       response = RecipeService.get_recipes_by_country(country)
 
@@ -24,7 +24,7 @@ RSpec.describe RecipeService do
 
     it 'returns an empty array if no recipes are found' do 
       stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{ENV['edamam_app_id']}&app_key=#{ENV['edamam_app_key']}&q=&type=public")
-      .to_return(status: 200, body: File.read('./spec/fixtures/no_matching_recipes.json'), headers: {})
+        .to_return(status: 200, body: File.read('./spec/fixtures/no_matching_recipes.json'), headers: {})
       country = ''
       response = RecipeService.get_recipes_by_country(country)
       

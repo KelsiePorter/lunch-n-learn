@@ -1,0 +1,73 @@
+{
+  "type": "Feature",
+  "properties": {
+      "name": "Complejo Arqueológico Mateo Salado",
+      "country": "Peru",
+      "country_code": "pe",
+      "region": "Province of Lima",
+      "state": "Lima",
+      "city": "Lima Metropolitan Area",
+      "postcode": "15084",
+      "district": "Urbanizacion Las Brisas",
+      "suburb": "Lima",
+      "street": "Mariano Cornejo Avenue",
+      "lon": -77.06261149209966,
+      "lat": -12.065462700000001,
+      "state_code": "LIM",
+      "formatted": "Complejo Arqueológico Mateo Salado, Mariano Cornejo Avenue, Lima, Lima Metropolitan Area 15084, Peru",
+      "address_line1": "Complejo Arqueológico Mateo Salado",
+      "address_line2": "Mariano Cornejo Avenue, Lima, Lima Metropolitan Area 15084, Peru",
+      "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.sights",
+          "tourism.sights.archaeological_site"
+      ],
+      "details": [
+          "details",
+          "details.contact",
+          "details.facilities",
+          "details.historic",
+          "details.payment",
+          "details.wiki_and_media"
+      ],
+      "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database Licence",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+              "name": "Complejo Arqueológico Mateo Salado",
+              "email": "mateosalado@cultura.gob.pe",
+              "phone": "+5113215624",
+              "height": 2.5,
+              "osm_id": 115981121,
+              "barrier": "fence",
+              "tourism": "attraction",
+              "alt_name": "Huaca Mateo Salado",
+              "historic": "archaeological_site",
+              "osm_type": "w",
+              "wikidata": "Q6005941",
+              "addr:city": "Lima",
+              "wikipedia": "es:Mateo Salado (complejo arqueológico)",
+              "fence_type": "split_rail",
+              "wheelchair": "no",
+              "addr:street": "Avenida Mariano Cornejo",
+              "description": "Es un complejo arqueológico que consta de 5 pirámides escalonadas truncas construído por la cultura Ychsma hacia el 1100 d.C. y posteriormente ocupada por los Incas en 1450. Se encuentra en medio de la ciudad de Lima y es el más grande de la ciudad.",
+              "payment:cash": "yes",
+              "opening_hours": "We-Su 10:00-16:00",
+              "contact:facebook": "https://www.facebook.com/Complejo-Arqueol%C3%B3gico-Mateo-Salado-755293434588320/",
+              "historic:civilization": "ychsma",
+              "wheelchair:description": "No parece ser accesible. Ninguna huaca lo es."
+          }
+      },
+      "place_id": "516539f56d054453c059c8406d6eb62128c0f00102f90141bbe90600000000920323436f6d706c656a6f2041727175656f6cc3b36769636f204d6174656f2053616c61646f"
+  },
+  "geometry": {
+      "type": "Point",
+      "coordinates": [
+          -77.0628313917892,
+          -12.06584496577888
+      ]
+  }
+}

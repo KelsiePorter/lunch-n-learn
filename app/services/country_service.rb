@@ -5,6 +5,12 @@ class CountryService
     parse_json(response)
   end
 
+  def self.get_long_lat_capital_city(country)
+    response = conn.get("/v3.1/name/#{country}")
+    country_data = parse_json(response)
+    country_data[0][:capitalInfo][:latlng].reverse
+  end
+
   private
 
   def self.conn
