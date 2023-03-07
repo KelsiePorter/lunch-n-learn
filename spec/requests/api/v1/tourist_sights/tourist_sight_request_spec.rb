@@ -5,8 +5,10 @@ RSpec.describe 'Places API' do
     WebMock.allow_net_connect!
   end
 
-  xit 'returns a collection of tourist sight within 1000m of the specified country' do 
-    country = 'france'
+  it 'returns a collection of tourist sights within 1000m of the specified country' do 
+    stub_request(:get, "https://api.geoapify.com/v2/places?apiKey=#{ENV['places_api_key']}&categories=tourism.sights&filter=circle:-77.05,-12.05,1000&limit=20")
+      .to_return(status: 200, body: File.read('./spec/fixtures/lima_tourist_sights.json'), headers: {})
+    country = 'peru'
     get "/api/v1/tourist_sights?country=#{country}"
 
     search_results = JSON.parse(response.body, symbolize_names: true)

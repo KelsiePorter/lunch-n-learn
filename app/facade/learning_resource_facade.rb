@@ -2,12 +2,11 @@ class LearningResourceFacade
 
   def self.get_learning_resources(country)
     video_data = YoutubeService.get_video(country)
-    # if video_data.nil?
-    #   video = {}
-    # else
-    #   video = Video.new(video_data)
-    # end
-    video_data.nil? video = {} : video = Video.new(video_data)
+    if video_data.nil?
+      video = {}
+    else
+      video = Video.new(video_data)
+    end
 
     images_data = UnsplashService.get_images(country)
     if images_data[:results].empty? 
