@@ -1,7 +1,6 @@
 class Api::V1::UsersController < ApplicationController 
 
   def create 
-    # can I do: user = User.new(permitted_params).generate_api_key ??
     user = User.new(permitted_params)
     user.generate_api_key
 

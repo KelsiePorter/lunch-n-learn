@@ -17,6 +17,7 @@ class Api::V1::FavoritesController < ApplicationController
         render json: { errors: favorite.errors.full_messages.to_sentence }, status: :bad_request
       end
     else 
+      # require 'pry'; binding.pry
       render json: { errors: "User not found" }, status: :not_found
     end 
   end
