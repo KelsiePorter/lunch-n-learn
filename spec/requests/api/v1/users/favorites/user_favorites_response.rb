@@ -18,11 +18,9 @@ RSpec.describe "Get a User's Favorites API" do
     expect(parsed_response).to be_a Hash
     expect(parsed_response).to have_key(:data)
     expect(parsed_response[:data].count).to eq(3)
-
     expect(parsed_response[:data][0][:id]).to eq(favorite1.id.to_s)
     expect(parsed_response[:data][1][:id]).to eq(favorite2.id.to_s)
     expect(parsed_response[:data][2][:id]).to eq(favorite3.id.to_s)
-
     expect(parsed_response[:data][0][:attributes][:recipe_title]).to eq(favorite1.recipe_title)
     expect(parsed_response[:data][0][:attributes][:recipe_link]).to eq(favorite1.recipe_link)
     expect(parsed_response[:data][0][:attributes][:country]).to eq(favorite1.country)
@@ -33,19 +31,14 @@ RSpec.describe "Get a User's Favorites API" do
       expect(favorite[:type]).to eq('favorite')
       expect(favorite).to have_key(:attributes)
       expect(favorite[:attributes]).to be_a Hash
-      
       expect(favorite[:attributes]).to have_key(:recipe_title)
       expect(favorite[:attributes][:recipe_title]).to be_a String
-
       expect(favorite[:attributes]).to have_key(:recipe_link)
       expect(favorite[:attributes][:recipe_link]).to be_a String
-
       expect(favorite[:attributes]).to have_key(:country)
       expect(favorite[:attributes][:country]).to be_a String
-
       expect(favorite[:attributes]).to have_key(:created_at)
       expect(favorite[:attributes][:created_at]).to be_a String
-
       expect(favorite[:attributes]).to_not have_key(:user_id)
       expect(favorite[:attributes]).to_not have_key(:updated_at)
     end
