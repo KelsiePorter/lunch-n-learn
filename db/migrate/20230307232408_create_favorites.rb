@@ -4,9 +4,11 @@ class CreateFavorites < ActiveRecord::Migration[5.2]
       t.string :country
       t.string :recipe_link
       t.string :recipe_title
-      t.references :user, foreign_key: true
+      t.string :user_api_key
 
       t.timestamps
     end
+
+    add_index :favorites, :user_api_key 
   end
 end

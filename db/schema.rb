@@ -19,10 +19,10 @@ ActiveRecord::Schema.define(version: 2023_03_07_232408) do
     t.string "country"
     t.string "recipe_link"
     t.string "recipe_title"
-    t.bigint "user_id"
+    t.string "user_api_key"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["user_id"], name: "index_favorites_on_user_id"
+    t.index ["user_api_key"], name: "index_favorites_on_user_api_key"
   end
 
   create_table "users", force: :cascade do |t|
@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 2023_03_07_232408) do
     t.string "api_key"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["api_key"], name: "index_users_on_api_key", unique: true
   end
 
-  add_foreign_key "favorites", "users"
 end
