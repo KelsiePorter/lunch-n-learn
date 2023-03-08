@@ -42,7 +42,7 @@ RSpec.describe 'Edamam API' do
       .to_return(status: 200, body: File.read('./spec/fixtures/all_countries.json'), headers: {})
     stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{ENV['edamam_app_id']}&app_key=#{ENV['edamam_app_key']}&q=gambia&type=public")
       .to_return(status: 200, body: File.read('./spec/fixtures/recipes_by_country.json'), headers: {})
-    stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{ENV['edamam_app_id']}&app_key=#{ENV['edamam_app_key']}&q=capeverde&type=public")
+    stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{ENV['edamam_app_id']}&app_key=#{ENV['edamam_app_key']}&q=cape%20verde&type=public")
       .to_return(status: 200, body: File.read('./spec/fixtures/recipes_by_country.json'), headers: {})
     get '/api/v1/recipes'
 
